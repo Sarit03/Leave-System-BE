@@ -7,7 +7,6 @@ import java.time.LocalDate;
 public class LeaveRequestEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String leaveType;
